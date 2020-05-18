@@ -16,22 +16,18 @@ h1{
     font-size: 500%;
 }
 
-h2{
-  color: white;
-}
-
-h3{
-  color: #F39119;
-}
-
 .titulo{
   background-color: black;
   opacity: 70%;
+  color: white;
 }
 
 .subtitulo{
-  background-color: black;
-  opacity: 70%;
+  color: #F39119
+}
+
+.titulo p{
+  font-size: 4vw;
 }
 
 .container{
@@ -43,7 +39,11 @@ h3{
 }
 
 .formulario{
-  height: 100%
+  height: 100%;
+}
+
+.formulario iframe{
+  font-size: 100px;
 }
 
 @media (min-width: 600px) {
@@ -58,7 +58,7 @@ h3{
     width: 100px
   }
 
-h2{
+.titulo p{
   font-size: 30px
 }
 
