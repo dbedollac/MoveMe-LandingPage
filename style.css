@@ -20,14 +20,11 @@ h1{
   background-color: black;
   opacity: 70%;
   color: white;
+  font-size: 10px
 }
 
 .subtitulo{
   color: #F39119
-}
-
-.titulo p{
-  font-size: 4vw;
 }
 
 .container{
@@ -40,10 +37,6 @@ h1{
 
 .formulario{
   height: 100%;
-}
-
-.formulario iframe{
-  font-size: 100px;
 }
 
 @media (min-width: 600px) {
