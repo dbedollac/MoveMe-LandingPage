@@ -19,6 +19,9 @@ h1{
 .titulo{
   background-color: black;
   opacity: 70%;
+}
+
+.titulo p{
   color: white;
   font-size: 10px
 }
