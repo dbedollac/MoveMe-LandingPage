@@ -1,6 +1,9 @@
 body{
   font-family: "Lucida Sans Unicode";
   text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0
 }
 
 header{
@@ -35,7 +38,6 @@ h3{
 }
 
 .container{
-  height: 100vh;
   background-image: url("Imagenes/fitness-home-gray.png");
   background-position: center;
   background-size: cover;
@@ -44,6 +46,32 @@ h3{
 
 .formulario{
   height: 100%;
+}
+
+footer{
+  background-color: lightgray;
+  color: black;
+}
+
+footer img{
+  width: 150px;
+}
+
+.contacto img{
+  width: 50px
+}
+
+.contacto{
+  padding-left: 50px;
+  padding-top: 20px
+}
+
+.socialmedia img{
+  width: 100px
+}
+
+.socialmedia div{
+  margin: 20px
 }
 
 @media (min-width: 600px) {
@@ -56,6 +84,10 @@ h3{
 
   header img{
     width: 100px
+  }
+
+  footer img{
+    width: 150px;
   }
 
 }
