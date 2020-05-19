@@ -70,9 +70,10 @@ footer img{
   width: 100px
 }
 
-.socialmedia div{
-  margin: 20px
+#IG{
+  width: 200px
 }
+
 
 @media (min-width: 600px) {
 
