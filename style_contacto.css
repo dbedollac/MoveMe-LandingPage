@@ -30,33 +30,15 @@ h1{
     font-size: 500%;
 }
 
-h2{
-  color: white;
-}
-
-h3{
-  color: #F39119;
-}
-
-.titulo{
-  background-color: black;
-  opacity: 70%;
-}
-
-.subtitulo{
-  background-color: black;
-  opacity: 70%;
-}
-
 .container{
   background-image: url("Imagenes/fitness-home-gray.png");
   background-position: center;
   background-size: cover;
-  padding-top: 5%;
+  padding-top: 1%;
+  height: 100vh
 }
 
-.formulario{
-  height: 100%;
+.main-container{
 }
 
 footer{
@@ -107,5 +89,6 @@ footer img{
   nav a{
     font-size: 22px
   }
+
 
 }
