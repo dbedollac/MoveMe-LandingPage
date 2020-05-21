@@ -8,10 +8,12 @@ body{
 
 header{
   background-image: linear-gradient(to right, white , #585858);
+  font-family: "Corbel";
+  font-style: italic;
 }
 
 header img{
-  width: 200px;
+  width: 250px;
 }
 
 h1{
@@ -49,8 +51,10 @@ h3{
 }
 
 footer{
+  background-image: url("Imagenes/MM_TEXTURA.png");
   background-color: lightgray;
   color: black;
+  font-weight: bold;
 }
 
 footer img{
