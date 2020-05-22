@@ -59,6 +59,10 @@ h3{
   margin: 5%
 }
 
+.formulario a{
+  color: white
+}
+
 footer{
   background-image: url("Imagenes/MM_TEXTURA.png");
   background-color: lightgray;
