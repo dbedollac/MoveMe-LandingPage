@@ -43,11 +43,6 @@ h3{
   opacity: 70%;
 }
 
-.subtitulo{
-  background-color: black;
-  opacity: 70%;
-}
-
 .container{
   background-image: url("Imagenes/fitness-home-gray.png");
   background-position: center;
@@ -57,6 +52,11 @@ h3{
 
 .formulario{
   height: 100%;
+}
+
+.formulario button{
+  background-color: #d68930;
+  margin: 5%
 }
 
 footer{
@@ -106,6 +106,10 @@ footer img{
 
   nav a{
     font-size: 22px
+  }
+
+  .container{
+    padding-top: 2%
   }
 
 }
