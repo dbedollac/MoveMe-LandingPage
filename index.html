@@ -21,32 +21,6 @@
   </head>
 
   <body>
-    <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v7.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="107603050964291"
-  theme_color="#d68930"
-  logged_in_greeting="Hola, ¿Te interesa MoveMe?"
-  logged_out_greeting="Hola, ¿Te interesa MoveMe?">
-      </div>
     <div class="main-container d-flex flex-column">
     <header>
       <div class="col-12 col-sm-12 d-flex flex-row align-items-center">
